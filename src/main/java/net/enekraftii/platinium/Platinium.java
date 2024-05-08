@@ -1,6 +1,9 @@
-package net.enekraftii.basedmod;
+package net.enekraftii.platinium;
 
 import com.mojang.logging.LogUtils;
+import net.enekraftii.platinium.item.ModCreativeModTab;
+import net.enekraftii.platinium.item.ModItems;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -14,13 +17,17 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(BasedMod.MOD_ID)
-public class BasedMod {
-    public static final String MOD_ID = "basedmod";
+@Mod(Platinium.MOD_ID)
+public class Platinium {
+    public static final String MOD_ID = "platiniummod";
     public static final Logger LOGGER = LogUtils.getLogger();
 
-    public BasedMod() {
+    public Platinium() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTab.register(modEventBus);
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -34,7 +41,10 @@ public class BasedMod {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.PLATINIUM);
+            event.accept(ModItems.RAW_PLATINIUM);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
