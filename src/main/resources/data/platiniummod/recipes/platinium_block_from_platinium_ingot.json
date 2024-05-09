@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "platiniummod:platinium_ingot"
+    }
+  },
+  "result": {
+    "item": "platiniummod:platinium_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 1.2,
+  "group": "platinium_ingot",
+  "ingredient": {
+    "item": "platiniummod:raw_platinium"
+  },
+  "result": "platiniummod:platinium_ingot"
+}
