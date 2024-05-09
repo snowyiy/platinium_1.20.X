@@ -1,6 +1,7 @@
 package net.enekraftii.platinium;
 
 import com.mojang.logging.LogUtils;
+import net.enekraftii.platinium.block.ModBlocks;
 import net.enekraftii.platinium.item.ModCreativeModTab;
 import net.enekraftii.platinium.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class Platinium {
         ModCreativeModTab.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

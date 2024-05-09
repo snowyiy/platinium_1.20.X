@@ -1,6 +1,7 @@
 package net.enekraftii.platinium.item;
 
 import net.enekraftii.platinium.Platinium;
+import net.enekraftii.platinium.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,9 @@ public class ModCreativeModTab {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.PLATINIUM_INGOT.get());
                         output.accept(ModItems.RAW_PLATINIUM.get());
+
+                        output.accept(ModBlocks.PLATINIUM_BLOCK.get());
+                        output.accept(ModBlocks.PLATINIUM_ORE.get());
                     })
                     .build());
 
