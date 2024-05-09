@@ -11,7 +11,7 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, Platinium.MOD_ID);
 
-    public static final RegistryObject<Item> PLATINIUM = ITEMS.register("platinium",
+    public static final RegistryObject<Item> PLATINIUM_INGOT = ITEMS.register("platinium_ingot",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_PLATINIUM = ITEMS.register("raw_platinium",

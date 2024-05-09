@@ -14,10 +14,10 @@ public class ModCreativeModTab {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Platinium.MOD_ID);
 
     public static final RegistryObject<CreativeModeTab> PLATINIUM_TAB = CREATIVE_MODE_TABS.register("platinium8_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINIUM.get()))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINIUM_INGOT.get()))
                     .title(Component.translatable("creativetab.platinium_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.PLATINIUM.get());
+                        output.accept(ModItems.PLATINIUM_INGOT.get());
                         output.accept(ModItems.RAW_PLATINIUM.get());
                     })
                     .build());

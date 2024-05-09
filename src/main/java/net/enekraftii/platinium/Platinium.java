@@ -42,7 +42,7 @@ public class Platinium {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(ModItems.PLATINIUM);
+            event.accept(ModItems.PLATINIUM_INGOT);
             event.accept(ModItems.RAW_PLATINIUM);
         }
     }
