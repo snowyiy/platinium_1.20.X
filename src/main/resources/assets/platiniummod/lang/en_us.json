@@ -3,7 +3,9 @@
   "item.platiniummod.raw_platinium": "Raw Platinium",
 
   "block.platiniummod.platinium_block": "Block of Platinium",
+
   "block.platiniummod.platinium_ore": "Platinium Ore",
+  "block.platiniummod.deepslate_platinium_ore": "Deepslate Platinium Ore",
 
   "creativetab.platinium_tab": "Platinium"
 }
