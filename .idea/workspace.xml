@@ -9,9 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="add deepslate platinium ore (without texture)&#10;add loot table for platinium ore and deepslate platinium ore">
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-    </list>
+    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="change mod version in gradle.properties" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715356771557</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="change mod version in gradle.properties">
+      <option name="closed" value="true" />
+      <created>1715356826141</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715356826141</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +244,7 @@
     <MESSAGE value="add platinium ore texture" />
     <MESSAGE value="add recipes:&#10;raw platinium -&gt; platinium ingot (furnace/blast furnace)&#10;platinium ingot -&gt; platinium block&#10;platinium block -&gt; platinium ingot" />
     <MESSAGE value="add deepslate platinium ore (without texture)&#10;add loot table for platinium ore and deepslate platinium ore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add deepslate platinium ore (without texture)&#10;add loot table for platinium ore and deepslate platinium ore" />
+    <MESSAGE value="change mod version in gradle.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="change mod version in gradle.properties" />
   </component>
 </project>
