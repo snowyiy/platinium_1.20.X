@@ -25,6 +25,8 @@ public class ModCreativeModTab {
 
                         output.accept(ModBlocks.PLATINIUM_ORE.get());
                         output.accept(ModBlocks.DEEPSLATE_PLATINIUM_ORE.get());
+
+                        output.accept(ModItems.PLATINIUM_DETECTOR.get());
                     })
                     .build());
 

@@ -1,6 +1,7 @@
 package net.enekraftii.platinium.item;
 
 import net.enekraftii.platinium.Platinium;
+import net.enekraftii.platinium.item.custom.PlatiniumDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -17,6 +18,8 @@ public class ModItems {
     public static final RegistryObject<Item> RAW_PLATINIUM = ITEMS.register("raw_platinium",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> PLATINIUM_DETECTOR = ITEMS.register("platinium_detector",
+            () -> new PlatiniumDetectorItem(new Item.Properties().durability(150)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
