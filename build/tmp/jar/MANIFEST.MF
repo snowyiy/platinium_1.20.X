@@ -3,7 +3,7 @@ Specification-Title: platiniummod
 Specification-Vendor: enekraftii
 Specification-Version: 1
 Implementation-Title: platinium_1.20.X
-Implementation-Version: 0.7.1-1.20.1
+Implementation-Version: 0.8.1-1.20.1
 Implementation-Vendor: enekraftii
-Implementation-Timestamp: 2024-05-12T14:42:27+0200
+Implementation-Timestamp: 2024-05-12T15:09:54+0200
 
