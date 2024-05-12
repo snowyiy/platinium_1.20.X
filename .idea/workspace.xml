@@ -9,22 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="build project (into .jar)">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModsFoods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/platiniummod/models/item/strawberry.json" afterDir="false" />
+    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="add strawberries which have a chance to give you a speed effect when eat them (not farmable yet)&#10;update gradle version in gradle.properties">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/platiniummod/recipes/platinium_detector_from_platinium_block_stick_and_iron_ingot.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-2.log.gz" afterDir="false" />
@@ -32,6 +25,8 @@
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-4.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-5.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-7.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-8.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-8.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -43,6 +38,7 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
@@ -58,9 +54,6 @@
       <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModCreativeModTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModCreativeModTab.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platiniummod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/platiniummod/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +136,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/Eneko/Documents/Mod-Minecraft/forge/platinium_1.20.X/src/main/java/net/enekraftii",
-    "last_opened_file_path": "C:/Users/Eneko/Documents/Mod-Minecraft/forge/platinium_1.20.X/src/main/resources/assets/platiniummod/models/item",
+    "last_opened_file_path": "C:/Users/Eneko/Documents/Mod-Minecraft/forge/platinium_1.20.X/src/main/resources/data/platiniummod/recipes",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -152,14 +145,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\models\item" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\data\platiniummod\recipes" />
+      <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\models\item" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\data\platiniummod\loot_tables\blocks" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\blockstates" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\models\block" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.platinium_1.20.X [build]">
+  <component name="RunManager" selected="Gradle.Forge-Tutorial-1.20.X-1-setup [runClient]">
     <configuration name="Forge-Tutorial-1.20.X-1-setup [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -372,7 +365,39 @@
       <option name="project" value="LOCAL" />
       <updated>1715517767594</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="add strawberries which have a chance to give you a speed effect when eat them (not farmable yet)&#10;update gradle version in gradle.properties">
+      <option name="closed" value="true" />
+      <created>1715519347323</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1715519347323</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add strawberries which have a chance to give you a speed effect when eat them (not farmable yet)&#10;update gradle version in gradle.properties">
+      <option name="closed" value="true" />
+      <created>1715519373569</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1715519373569</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add strawberries which have a chance to give you a speed effect when eat them (not farmable yet)&#10;update gradle version in gradle.properties">
+      <option name="closed" value="true" />
+      <created>1715519378384</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1715519378384</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add strawberries which have a chance to give you a speed effect when eat them (not farmable yet)&#10;update gradle version in gradle.properties">
+      <option name="closed" value="true" />
+      <created>1715519405809</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1715519405809</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -400,6 +425,7 @@
     <MESSAGE value="add sound block who play a sound if it click (and it is mineable)" />
     <MESSAGE value="update gradle version in gradle.properties" />
     <MESSAGE value="build project (into .jar)" />
-    <option name="LAST_COMMIT_MESSAGE" value="build project (into .jar)" />
+    <MESSAGE value="add strawberries which have a chance to give you a speed effect when eat them (not farmable yet)&#10;update gradle version in gradle.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="add strawberries which have a chance to give you a speed effect when eat them (not farmable yet)&#10;update gradle version in gradle.properties" />
   </component>
 </project>
