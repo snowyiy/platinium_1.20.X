@@ -2,6 +2,7 @@
   "values": [
     "platiniummod:platinium_block",
     "platiniummod:platinium_ore",
-    "platiniummod:deepslate_platinium_ore"
+    "platiniummod:deepslate_platinium_ore",
+    "platiniummod:sound_block"
   ]
 }

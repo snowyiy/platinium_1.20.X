@@ -1,6 +1,7 @@
 package net.enekraftii.platinium.block;
 
 import net.enekraftii.platinium.Platinium;
+import net.enekraftii.platinium.block.custom.SoundBlock;
 import net.enekraftii.platinium.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -30,6 +31,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> DEEPSLATE_PLATINIUM_ORE = registerBlocks("deepslate_platinium_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE)
                     .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(4, 7)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlocks("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlocks(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

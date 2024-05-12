@@ -17,16 +17,18 @@ public class ModCreativeModTab {
     public static final RegistryObject<CreativeModeTab> PLATINIUM_TAB = CREATIVE_MODE_TABS.register("platinium8_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.PLATINIUM_INGOT.get()))
                     .title(Component.translatable("creativetab.platinium_tab"))
-                    .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.PLATINIUM_INGOT.get());
-                        output.accept(ModItems.RAW_PLATINIUM.get());
+                    .displayItems((itemDisplayParameters, pOutput) -> {
+                        pOutput.accept(ModItems.PLATINIUM_INGOT.get());
+                        pOutput.accept(ModItems.RAW_PLATINIUM.get());
 
-                        output.accept(ModBlocks.PLATINIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.PLATINIUM_BLOCK.get());
 
-                        output.accept(ModBlocks.PLATINIUM_ORE.get());
-                        output.accept(ModBlocks.DEEPSLATE_PLATINIUM_ORE.get());
+                        pOutput.accept(ModBlocks.PLATINIUM_ORE.get());
+                        pOutput.accept(ModBlocks.DEEPSLATE_PLATINIUM_ORE.get());
 
-                        output.accept(ModItems.PLATINIUM_DETECTOR.get());
+                        pOutput.accept(ModItems.PLATINIUM_DETECTOR.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 

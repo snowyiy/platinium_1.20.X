@@ -135,6 +135,7 @@ Reading Input: C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\bui
 Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for net/enekraftii/platinium/item/custom/PlatiniumDetectorItem/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/item/Item/useOn(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;: useOn -> m_6225_
+Conflicting propagated mapping for net/enekraftii/platinium/block/custom/SoundBlock/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult; from net/minecraft/world/level/block/state/BlockBehaviour/use(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/InteractionHand;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/InteractionResult;: use -> m_6227_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
@@ -149,6 +150,7 @@ Writing Output: C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\bu
   assets/platiniummod/blockstates/deepslate_platinium_ore.json
   assets/platiniummod/blockstates/platinium_block.json
   assets/platiniummod/blockstates/platinium_ore.json
+  assets/platiniummod/blockstates/sound_block.json
   assets/platiniummod/lang/
   assets/platiniummod/lang/en_us.json
   assets/platiniummod/models/
@@ -156,6 +158,7 @@ Writing Output: C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\bu
   assets/platiniummod/models/block/deepslate_platinium_ore.json
   assets/platiniummod/models/block/platinium_block.json
   assets/platiniummod/models/block/platinium_ore.json
+  assets/platiniummod/models/block/sound_block.json
   assets/platiniummod/models/item/
   assets/platiniummod/models/item/deepslate_platinium_ore.json
   assets/platiniummod/models/item/platinium_block.json
@@ -163,11 +166,13 @@ Writing Output: C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\bu
   assets/platiniummod/models/item/platinium_ingot.json
   assets/platiniummod/models/item/platinium_ore.json
   assets/platiniummod/models/item/raw_platinium.json
+  assets/platiniummod/models/item/sound_block.json
   assets/platiniummod/textures/
   assets/platiniummod/textures/block/
   assets/platiniummod/textures/block/deepslate_platinium_ore.png
   assets/platiniummod/textures/block/platinium_block.png
   assets/platiniummod/textures/block/platinium_ore.png
+  assets/platiniummod/textures/block/sound_block.png
   assets/platiniummod/textures/item/
   assets/platiniummod/textures/item/platinium_detector.png
   assets/platiniummod/textures/item/platinium_ingot.png
@@ -194,11 +199,13 @@ Writing Output: C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\bu
   data/platiniummod/loot_tables/blocks/deepslate_platinium_ore.json
   data/platiniummod/loot_tables/blocks/platinium_block.json
   data/platiniummod/loot_tables/blocks/platinium_ore.json
+  data/platiniummod/loot_tables/blocks/sound_block.json
   data/platiniummod/recipes/
   data/platiniummod/recipes/platinium_block_from_platinium_ingot.json
   data/platiniummod/recipes/platinium_ingot_from_blasting_raw_platinium.json
   data/platiniummod/recipes/platinium_ingot_from_platinium_block.json
   data/platiniummod/recipes/platinium_ingot_from_smelting_raw_platinium.json
+  data/platiniummod/recipes/sound_block_from_platinium_ingot_and_wood.json
   net/
   net/enekraftii/
   net/enekraftii/platinium/
@@ -206,6 +213,8 @@ Writing Output: C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\bu
   net/enekraftii/platinium/Platinium.class
   net/enekraftii/platinium/block/
   net/enekraftii/platinium/block/ModBlocks.class
+  net/enekraftii/platinium/block/custom/
+  net/enekraftii/platinium/block/custom/SoundBlock.class
   net/enekraftii/platinium/item/
   net/enekraftii/platinium/item/ModCreativeModTab.class
   net/enekraftii/platinium/item/ModItems.class
