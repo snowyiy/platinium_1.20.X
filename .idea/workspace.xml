@@ -9,7 +9,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="update gradle version in gradle.properties" />
+    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="build project (into .jar)">
+      <change afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModsFoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/platiniummod/models/item/strawberry.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-05-12-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-05-12-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/380df991-f603-344c-a090-369bad2a924a.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/session.lock" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/session.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/380df991-f603-344c-a090-369bad2a924a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModCreativeModTab.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModCreativeModTab.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinium/item/ModItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platiniummod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/platiniummod/lang/en_us.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,32 +133,33 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Forge-Tutorial-1.20.X-1-setup [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.platinium_1.20.X [build].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/Eneko/Documents/Mod-Minecraft/forge/platinium_1.20.X/src/main/java/net/enekraftii&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Eneko/Documents/Mod-Minecraft/forge/platinium_1.20.X/src/main/resources/data/platiniummod/recipes&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Forge-Tutorial-1.20.X-1-setup [runClient].executor": "Run",
+    "Gradle.platinium_1.20.X [build].executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ShowUsagesActions.previewPropertyKey": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/Eneko/Documents/Mod-Minecraft/forge/platinium_1.20.X/src/main/java/net/enekraftii",
+    "last_opened_file_path": "C:/Users/Eneko/Documents/Mod-Minecraft/forge/platinium_1.20.X/src/main/resources/assets/platiniummod/models/item",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\models\item" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\data\platiniummod\recipes" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\data\platiniummod\loot_tables\blocks" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\blockstates" />
-      <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\models\item" />
       <recent name="C:\Users\Eneko\Documents\Mod-Minecraft\forge\platinium_1.20.X\src\main\resources\assets\platiniummod\models\block" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.platinium_1.20.X [build]">
+  <component name="RunManager" selected="Gradle.Forge-Tutorial-1.20.X-1-setup [runClient]">
     <configuration name="Forge-Tutorial-1.20.X-1-setup [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -153,8 +206,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.platinium_1.20.X [build]" />
         <item itemvalue="Gradle.Forge-Tutorial-1.20.X-1-setup [runClient]" />
+        <item itemvalue="Gradle.platinium_1.20.X [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715517721541</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="build project (into .jar)">
+      <option name="closed" value="true" />
+      <created>1715517767594</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1715517767594</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,6 +399,7 @@
     <MESSAGE value="update mod version in gradle.properties&#10;and add platinium detector who detect iron ore for the moment..." />
     <MESSAGE value="add sound block who play a sound if it click (and it is mineable)" />
     <MESSAGE value="update gradle version in gradle.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="update gradle version in gradle.properties" />
+    <MESSAGE value="build project (into .jar)" />
+    <option name="LAST_COMMIT_MESSAGE" value="build project (into .jar)" />
   </component>
 </project>
