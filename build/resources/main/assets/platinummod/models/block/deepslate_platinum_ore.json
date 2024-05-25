@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "platinummod:block/deepslate_platinum_ore"
+  }
+}

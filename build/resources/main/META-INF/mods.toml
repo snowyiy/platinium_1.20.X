@@ -15,11 +15,11 @@ license="MIT"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="platiniummod" #mandatory
+modId="platinummod" #mandatory
 # The version number of the mod
 version="0.9.1-1.20.1" #mandatory
 # A display name for the mod
-displayName="Platinium" #mandatory
+displayName="Platinum" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -39,9 +39,9 @@ authors="enekraftii" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''This is a mod made by enekraftii who add platine ore :)'''
+description='''This is a mod made by enekraftii who add platinum ore :)'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.platiniummod]] #optional
+[[dependencies.platinummod]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -55,7 +55,7 @@ description='''This is a mod made by enekraftii who add platine ore :)'''
     # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.platiniummod]]
+[[dependencies.platinummod]]
     modId="minecraft"
     mandatory=true
     # This version range declares a minimum of the current minecraft version up to but not including the next major version

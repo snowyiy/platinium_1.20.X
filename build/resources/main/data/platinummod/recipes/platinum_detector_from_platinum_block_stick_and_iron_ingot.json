@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " SS",
+    " P ",
+    "II "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "P": {
+      "item": "platinummod:platinum_block"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+
+  },
+  "result": {
+    "item": "platinummod:platinum_detector"
+  }
+}

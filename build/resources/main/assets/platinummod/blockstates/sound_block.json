@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "platinummod:block/sound_block"
+    }
+  }
+}
