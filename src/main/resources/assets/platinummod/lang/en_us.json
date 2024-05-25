@@ -1,0 +1,19 @@
+{
+  "item.platinummod.platinum_ingot": "Platinum Ingot",
+  "item.platinummod.raw_platinum": "Raw Platinum",
+
+  "block.platinummod.platinum_block": "Block of Platinum",
+
+  "block.platinummod.platinum_ore": "Platinum Ore",
+  "block.platinummod.deepslate_platinum_ore": "Deepslate Platinum Ore",
+
+  "item.platinummod.platinum_detector": "Platinum Detector",
+  "tooltip.platinummod.platinum_detector.tooltip": "Help you find platinum underground",
+
+  "block.platinummod.sound_block": "Sound Block",
+
+  "item.platinummod.strawberry": "Strawberry",
+  "item.platinummod.pine_cone": "Pine Cone",
+
+  "creativetab.platinum_tab": "Platinum Mod"
+}
