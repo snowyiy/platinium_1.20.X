@@ -1,5 +1,6 @@
 package net.enekraftii.platinum.item.custom;
 
+import net.enekraftii.platinum.util.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -64,6 +65,6 @@ public class PlatinumDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state) {
-        return state.is(Blocks.IRON_ORE);                       // TODO change iron ore to platinum ore/deepslate platinum ore (maybe tuto ep11)
+        return state.is(ModTags.Blocks.PLATINUM_DETECTOR_VALUABLES);
     }
 }
