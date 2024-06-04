@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.5,
+  "group": "platinum",
+  "ingredient": {
+    "item": "platinummod:deepslate_platinum_ore"
+  },
+  "result": "platinummod:platinum_ingot"
+}

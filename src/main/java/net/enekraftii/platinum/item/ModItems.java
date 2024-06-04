@@ -16,7 +16,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties()));
-        public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
+    public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
