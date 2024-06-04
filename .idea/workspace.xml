@@ -9,109 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="replace json with java class">
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.1.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/enekraftii/platinum/item/ModCreativeModTab.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/enekraftii/platinum/item/ModCreativeModTab.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/net/enekraftii/platinum/item/ModItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/net/enekraftii/platinum/item/ModItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reobfJar/log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reobfJar/output.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/reobfJar/output.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/META-INF/mods.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/deepslate_platinum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/deepslate_platinum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/platinum_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/platinum_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/platinum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/platinum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/sound_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/blockstates/sound_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/deepslate_platinum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/deepslate_platinum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/platinum_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/platinum_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/platinum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/platinum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/sound_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/block/sound_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/deepslate_platinum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/deepslate_platinum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/pine_cone.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/pine_cone.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_detector.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_detector.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_ingot.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_ingot.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/platinum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/raw_platinum.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/raw_platinum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/sound_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/sound_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/strawberry.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/platinummod/models/item/strawberry.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/needs_netherite_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/forge/tags/blocks/needs_netherite_tool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/hoe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/mineable/shovel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_diamond_tool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_iron_tool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_stone_tool.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/minecraft/tags/blocks/needs_stone_tool.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/loot_tables/blocks/deepslate_platinum_ore.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/platinummod/loot_tables/blocks/deepslate_platinum_ore.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/loot_tables/blocks/platinium_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/loot_tables/blocks/platinum_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/platinummod/loot_tables/blocks/platinum_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/loot_tables/blocks/sound_block.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/platinummod/loot_tables/blocks/sound_block.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/platinum_block_from_platinum_ingot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/platinum_detector_from_platinum_block_stick_and_iron_ingot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/platinum_ingot_from_blasting_raw_platinum.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/platinum_ingot_from_blasting_raw_platinum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/platinum_ingot_from_platinum_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/platinum_ingot_from_smelting_raw_platinum.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/platinum_ingot_from_smelting_raw_platinum.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/recipes/sound_block_from_platinum_ingot_and_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/data/platinummod/tags/blocks/platinum_detector_valuables.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/data/platinummod/tags/blocks/platinum_detector_valuables.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+    <list default="true" id="5a0b309b-9d07-45ac-b1ce-855c68911fe1" name="Changes" comment="replace json with java class ans delete json files&#10;update gradle version in gradle.properties">
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/generated/resources/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/datagen/DataGenerators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/datagen/DataGenerators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/datagen/ModRecipeProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/datagen/ModRecipeProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/datagen/loot/ModBlockLootTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/datagen/loot/ModBlockLootTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/enekraftii/platinum/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/blockstates/deepslate_platinum_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/blockstates/platinum_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/blockstates/platinum_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/blockstates/sound_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/block/deepslate_platinum_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/block/platinum_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/block/platinum_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/block/sound_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/deepslate_platinum_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/pine_cone.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/platinum_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/platinum_detector.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/platinum_ingot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/platinum_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/raw_platinum.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/sound_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/platinummod/models/item/strawberry.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/forge/tags/blocks/needs_netherite_tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/axe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/hoe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/mineable/shovel.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_diamond_tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_iron_tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/minecraft/tags/blocks/needs_stone_tool.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/loot_tables/blocks/deepslate_platinum_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/loot_tables/blocks/platinium_ore.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/loot_tables/blocks/platinum_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/loot_tables/blocks/sound_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/recipes/platinum_block_from_platinum_ingot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/recipes/platinum_detector_from_platinum_block_stick_and_iron_ingot.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/recipes/platinum_ingot_from_blasting_raw_platinum.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/recipes/platinum_ingot_from_platinum_block.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/recipes/platinum_ingot_from_smelting_raw_platinum.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/recipes/sound_block_from_platinum_ingot_and_wood.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/data/platinummod/tags/blocks/platinum_detector_valuables.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,32 +155,9 @@
       <RunAsTest>false</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="platinium_1.20.X [runData]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="runData" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <RunAsTest>false</RunAsTest>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.platinium_1.20.X [build]" />
-        <item itemvalue="Gradle.platinium_1.20.X [runData]" />
         <item itemvalue="Gradle.Forge-Tutorial-1.20.X-1-setup [runClient]" />
       </list>
     </recent_temporary>
@@ -535,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717536407289</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="replace json with java class ans delete json files&#10;update gradle version in gradle.properties">
+      <option name="closed" value="true" />
+      <created>1717536992987</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1717536992987</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -568,6 +452,7 @@
     <MESSAGE value="add tooltip for platinum detector&#10;add pine cone (burn item)&#10;and CHANGE MOD NAME AND MOS_ID platinium -&gt; platinum&#10;update gradle version in gradle.properties" />
     <MESSAGE value="add custom tags&#10;the platinum detector now found platinum ores&#10;update gradle version in gradle.properties" />
     <MESSAGE value="replace json with java class" />
-    <option name="LAST_COMMIT_MESSAGE" value="replace json with java class" />
+    <MESSAGE value="replace json with java class ans delete json files&#10;update gradle version in gradle.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="replace json with java class ans delete json files&#10;update gradle version in gradle.properties" />
   </component>
 </project>

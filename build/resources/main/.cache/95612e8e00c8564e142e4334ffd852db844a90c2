@@ -1,0 +1,7 @@
+// 1.20.1	2024-06-04T23:35:17.9954681	Tags for minecraft:block mod id platinummod
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+e087bd3c1bfcdf188f3d39fcb3f0f784cd7b690f data/minecraft/tags/blocks/mineable/pickaxe.json
+545a67d822546632eaaae8228c656f3c20fcc994 data/minecraft/tags/blocks/needs_diamond_tool.json
+a7acf13b2d871cdefba8a04470cbcfec029de974 data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
+14345c7df25a6165d18646bd6ec0bec6f3acc3e3 data/platinummod/tags/blocks/platinum_detector_valuables.json
