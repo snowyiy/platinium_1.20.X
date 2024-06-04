@@ -16,10 +16,14 @@ public class ModItems {
 
     public static final RegistryObject<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
             () -> new Item(new Item.Properties()));
+        public static final RegistryObject<Item> PLATINUM_NUGGET = ITEMS.register("platinum_nugget",
+            () -> new Item(new Item.Properties()));
+
     public static final RegistryObject<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> PLATINUM_DETECTOR = ITEMS.register("platinum_detector",
             () -> new PlatinumDetectorItem(new Item.Properties().durability(150)));
+
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModsFoods.STRAWBERRY)));
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",

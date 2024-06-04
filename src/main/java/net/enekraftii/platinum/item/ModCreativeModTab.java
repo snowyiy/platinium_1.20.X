@@ -19,6 +19,7 @@ public class ModCreativeModTab {
                     .title(Component.translatable("creativetab.platinum_tab"))
                     .displayItems((itemDisplayParameters, pOutput) -> {
                         pOutput.accept(ModItems.PLATINUM_INGOT.get());
+                        pOutput.accept(ModItems.PLATINUM_NUGGET.get());
                         pOutput.accept(ModItems.RAW_PLATINUM.get());
 
                         pOutput.accept(ModBlocks.PLATINUM_BLOCK.get());
